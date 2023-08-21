@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "fastapi-boilerplate"
+version = "0.1.0"
+description = ""
+authors = ["xander <moroz070688@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_boilerplate"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.101.1"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+sqlalchemy = "^2.0.20"
+python-jose = "^3.3.0"
+passlib = "^1.7.4"
+pydantic-settings = "^2.0.3"
+psycopg2-binary = "^2.9.7"
+python-multipart = "^0.0.6"
+alembic = "^1.11.3"
+pytest = "^7.4.0"
+httpx = "^0.24.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
