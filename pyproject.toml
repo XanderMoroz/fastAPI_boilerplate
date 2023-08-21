@@ -19,6 +19,7 @@ python-multipart = "^0.0.6"
 alembic = "^1.11.3"
 pytest = "^7.4.0"
 httpx = "^0.24.1"
+pre-commit = "^3.3.3"
 
 
 [build-system]
